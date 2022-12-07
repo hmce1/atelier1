@@ -1,11 +1,9 @@
 n = int(input("Entrez le nombre n: "))
 
-def somme(oneTOn):
-    i = 1
+def somme(OnetoN):
     sum = 0
-    while i <= n:
+    for i in range ( 1, n+1):
         sum += i
-        i += 1
     return sum
 
 print(somme(n))

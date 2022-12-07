@@ -1,10 +1,6 @@
-n = 5
+from exercice2 import factorial #nous sommes dans le même dossier
 
-def factorial(n):
-    fact = 1
-    for i in range(1,n+1): #we know that 0!=1, so we should start by 1
-        fact *= i
-    return fact
+n = 5
 
 def sum(n):
     somme = 0
